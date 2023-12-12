@@ -1,0 +1,51 @@
+
+.btn-info
+{
+    border-radius: 20px;
+    width: 500px;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn-info:hover
+{
+    background-image: linear-gradient(red , yellow, aqua , purple);
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3
+{
+    font-size: 25px;
+}
+
+
+.btn-warning:hover
+{
+    background-image: linear-gradient(to right , purple, magenta) ;
+    font-weight: bolder;
+}
+
+
+canvas
+{
+    border-radius: 30px;
+    margin-top: 50px;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+canvas:hover
+{
+   border-radius: 50px;
+}
+
+@keyframes example
+{
+    from {box-shadow: 1px 1px 40px rgb(0, 234, 255);}
+    to {box-shadow: 1px 1px 38px rgb(30, 0, 255);}
+}
+
